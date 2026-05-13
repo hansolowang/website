@@ -1,0 +1,15 @@
+{{ define "title" }}{{ .Site.Title }}{{ end }}
+{{ define "main" }}
+    <h1 id="name">Han Wang's</h1> &nbsp; <span class="docname">Blog</span>
+    <div class="vline" style="margin-bottom: 1.0em"></div>
+
+    {{ range .Site.RegularPages.ByDate.Reverse }}
+    <div class="item">
+        <div class="date">{{ .Date.Format "01/02/2006" }}</div>
+        <div class="posttitle"><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
+    </div>
+    {{ end }}
+
+    <br><br><br><br><br>
+    <span style="float:right">Inspired by <a href="https://colinraffel.com">Dr. Raffel's website</a></span>
+{{ end }}

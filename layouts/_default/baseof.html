@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+    <link rel="stylesheet" href="{{ "index.css" | relURL }}">
+    <style>
+    a { color: #005fd3; text-decoration: underline; }
+    .date { width: 165px; display: table-cell; }
+    .posttitle { display: table-cell; }
+    </style>
+</head>
+<body>
+    {{ block "main" . }}{{ end }}
+</body>
+</html>

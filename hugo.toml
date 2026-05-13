@@ -1,0 +1,6 @@
+baseURL = 'https://www.hansolowang.com/'
+languageCode = 'en-us'
+title = "Han Wang's Blog"
+
+[markup.goldmark.renderer]
+  unsafe = true

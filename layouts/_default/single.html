@@ -1,0 +1,11 @@
+{{ define "title" }}{{ .Title }} — {{ .Site.Title }}{{ end }}
+{{ define "main" }}
+    <article>
+        <h1>{{ .Title }}</h1>
+        <p style="color:#666; font-size:0.9em;">{{ .Date.Format "January 2, 2006" }}</p>
+        <div class="vline" style="margin-bottom:1em"></div>
+        {{ .Content }}
+    </article>
+    <br><br>
+    <a href="{{ "/" | relURL }}">&larr; Back</a>
+{{ end }}
