@@ -1,6 +1,7 @@
 ---
 title: "Have You Heard of Jax"
 date: 2022-11-22
+draft: true
 ---
 
 Jax can be envisioned as `numpy` with built in `autograd`, `vmal`, `pmap` and jit capabilities. This alone makes it one of the most versatile and powerful numerical methods library that handles multidimensional data. Jax makes it simple to write standard numpy code and immediately be able to

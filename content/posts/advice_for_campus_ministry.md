@@ -1,5 +1,5 @@
 ---
-title: "Be a Good Leader"
+title: "Advice for Campus Ministry"
 date: 2020-12-26
 ---
 
